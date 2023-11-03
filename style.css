@@ -1,0 +1,42 @@
+body {
+    background-color: black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    padding: 20px 20px;
+}
+
+.headlogo {
+    cursor: pointer;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+.navlist li {
+    float: left;
+    margin: 0px 10px;
+    color: white;
+    list-style: none;
+    cursor: pointer;
+}
+
+.navlist li a {
+    color: white;
+    text-decoration: none;
+}
+
+.navlist li a:hover {
+    color: green;
+}
+
+.account {
+    color: white;
+}
+
+.search {
+    display: grid;
+}
