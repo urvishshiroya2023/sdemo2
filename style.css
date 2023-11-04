@@ -30,6 +30,7 @@ header {
     color: white;
     list-style: none;
     cursor: pointer;
+    vertical-align: middle;
 }
 
 .navlist li a {
@@ -99,10 +100,11 @@ header {
 
     .navlist2 {
         display: block;
+        padding-bottom: 5px;
     }
 
     h1 {
-        padding-top: 90px;
+        padding-top: 95px;
     }
 }
 
