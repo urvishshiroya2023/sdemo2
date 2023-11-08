@@ -161,22 +161,17 @@ footer {
     display: grid;
     grid-gap: 20px;
     justify-content: center;
-    /* grid-template-columns: repeat(6, minmax(100px, auto)); */
     grid-template-columns: repeat(6, repeat(1, 1fr));
 }
 
 .box a {
     display: block;
     width: 100%;
-    /* Set a fixed width for all images */
     height: auto;
-    /* This ensures the aspect ratio is maintained */
 }
 
-/* Add any additional styling you need for the images here */
 .box a img {
     max-width: 100%;
-    /* Make sure the images don't exceed the width of their container */
 }
 
 .box a:hover {
@@ -189,60 +184,22 @@ footer {
 @media screen and (min-width: 501px) and (max-width: 700px) {
     .box {
         grid-template-columns: repeat(3, 1fr);
-        /* 3 images between 500px and 700px */
     }
 }
 
 @media screen and (min-width: 701px) and (max-width: 1024px) {
     .box {
         grid-template-columns: repeat(4, 1fr);
-        /* 4 images on tablets */
     }
 }
 
 @media screen and (min-width: 1025px) {
     .box {
         grid-template-columns: repeat(6, 1fr);
-        /* 6 images on large screens */
     }
 }
 
-/* .footimg {
-    height: 28px;
-    width: 28px;
-    margin: 0px 10px;
-}
 
-.footsocialicon {
-    display: flex;
-    align-items: center;
-}
-
-.footcol ul {
-    padding: 0px;
-}
-
-.footcol ul li {
-    list-style: none;
-    margin: 15px 10px;
-}
-
-.footcol ul li a {
-    text-decoration: none;
-    color: #686868;
-}
-
-.footcol {
-    display: flex;
-    justify-content: space-between;
-    margin-top: 10px;
-}
-
-.footbottomtext p {
-    text-align: center;
-    color: #686868;
-    margin-top: 10px;
-} */
 
 .footimg {
     height: 28px;
@@ -286,18 +243,14 @@ footer {
     margin-top: 10px;
 }
 
-/* Media query for tablet (768px and up) */
 @media screen and (min-width: 500px) {
     .footcol ul {
         flex: 0 0 calc(50% - 20px);
-        /* 2 columns on tablet */
     }
 }
 
-/* Media query for large screens (1024px and up) */
 @media screen and (min-width: 1024px) {
     .footcol ul {
         flex: 0 0 calc(25% - 20px);
-        /* 4 columns on large screens */
     }
 }
